@@ -43,7 +43,13 @@ int main()
 		selisihmenit = keluarmenit - masukmenit;
 	}	
 	//menghitung selisih jam
-	selisihjam = keluarjam - masukjam;	
+	if ((keluarjam-masukjam)<0) {
+	selisihjam = (24 + keluarjam) - masukjam;
+}
+    else {
+    	selisihjam = keluarjam - masukjam;
+	}
+	 	
 	//jarak antar baris
 	cout<<endl<<endl;
 	
