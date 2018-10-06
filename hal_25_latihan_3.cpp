@@ -14,8 +14,11 @@ int main()
 	cout<<endl;
 	
 	//seleksi perbandingan AND, kedua kondisi harus bernilai benar
-	if((angka>0) && (angka<10))
+	if((angka>0) && (angka<10)) {
 	   cout<<"Anda memasukkan angka antara 1 sampai 9 ";
-	else cout<<"Yang anda masukkan bukan dari angka 1 sampai 9";
+	   }
+	else {
+		cout<<"Yang anda masukkan bukan dari angka 1 sampai 9";
+	}
 return 0;
 }
