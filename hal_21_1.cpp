@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+float main()
 {
 	//deklarasi variabel
 	double yard, kaki, inchi, meter;
